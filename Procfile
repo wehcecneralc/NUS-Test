@@ -1,1 +1,1 @@
-worker: python NUSVHBot.py
+worker: python main.py
