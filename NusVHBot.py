@@ -29,7 +29,8 @@ def user_display(update: Update) -> str:
 
 
 # ===================== Bot Token =====================
-TOKEN = "8171488146:AAH7hgTQGc99ZNVYROr_zi7XO16HIM4LqnM"  # keep your token here
+import os
+TOKEN = os.getenv("TOKEN")
 
 
 # ===================== Database =====================
